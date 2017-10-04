@@ -1,7 +1,7 @@
 $(document).ready(function() {
     var slide = 1;
     $('.vroom').on('click', function(event) {
-        if (slide == 12) {
+        if (slide == 13) {
             return;
         }
         var x = `.slide${slide}, .slide${slide + 1}`;
